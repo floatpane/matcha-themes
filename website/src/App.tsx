@@ -129,6 +129,8 @@ function ThemePreview({ theme }: { theme: Theme }) {
 function ThemeCard({ theme, onSelect }: { theme: Theme; onSelect: (t: Theme) => void }) {
   const [copied, setCopied] = useState(false)
   const style = previewStyle(theme)
+  const slug = theme.name.toLowerCase().replace(/\s+/g, '-')
+  const installCommand = `matcha install theme ${slug}`
 
   const copy = async () => {
     await navigator.clipboard.writeText(JSON.stringify(theme, null, 2))
@@ -153,6 +155,22 @@ function ThemeCard({ theme, onSelect }: { theme: Theme; onSelect: (t: Theme) => 
         </button>
       </div>
       <ThemePreview theme={theme} />
+      <div
+        className="mt-3 flex items-center gap-2 rounded border border-slate-600 bg-slate-900/50 px-2 py-1.5 font-mono text-xs text-slate-300"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <span className="truncate">{installCommand}</span>
+        <button
+          onClick={(e) => {
+            e.stopPropagation()
+            navigator.clipboard.writeText(installCommand)
+          }}
+          className="ml-auto rounded p-1 text-slate-400 hover:text-slate-100"
+          title="Copy install command"
+        >
+          <Copy size={12} />
+        </button>
+      </div>
     </div>
   )
 }
@@ -233,7 +251,7 @@ export default function App() {
             Community themes for Matcha
           </h1>
           <p className="mx-auto max-w-xl text-slate-400">
-            Browse and install themes submitted by the community. Drop a JSON file in your Matcha themes directory to use it.
+            Browse and install themes with the Matcha CLI. Run <code className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-sm text-slate-200">matcha install theme {'<'}name{'>'}</code> to install any theme below.
           </p>
           <div className="mt-6 flex justify-center gap-3">
             <a href="https://github.com/floatpane/matcha-themes#submitting-a-theme" className="rounded-md bg-slate-100 px-4 py-2 text-sm font-medium text-slate-950 transition hover:bg-white">
@@ -294,6 +312,21 @@ export default function App() {
             </div>
             <ThemePreview theme={selected} />
             <Palette theme={selected} />
+            <div
+              className="mt-6 rounded border border-slate-600 bg-slate-900/50 px-3 py-2 font-mono text-sm text-slate-300"
+            >
+              <div className="mb-1 text-xs text-slate-400">Install with Matcha CLI</div>
+              <div className="flex items-center justify-between gap-2">
+                <span className="truncate">{`matcha install theme ${selected.name.toLowerCase().replace(/\s+/g, '-')}`}</span>
+                <button
+                  onClick={() => navigator.clipboard.writeText(`matcha install theme ${selected.name.toLowerCase().replace(/\s+/g, '-')}`)}
+                  className="rounded p-1 text-slate-400 hover:text-slate-100"
+                  title="Copy install command"
+                >
+                  <Copy size={14} />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}
