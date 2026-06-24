@@ -1,0 +1,16 @@
+{
+  "name": "Rose",
+  "accent": "#E8729B",
+  "accent_dark": "#B5547A",
+  "accent_text": "#FFFDF5",
+  "secondary": "244",
+  "subtle_text": "245",
+  "muted_text": "247",
+  "dim_text": "250",
+  "danger": "196",
+  "warning": "208",
+  "tip": "214",
+  "link": "#9BC4FF",
+  "directory": "#E8729B",
+  "contrast": "#000000"
+}

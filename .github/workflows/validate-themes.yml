@@ -1,0 +1,92 @@
+name: Validate Theme Files
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'themes/**'
+      - .github/workflows/validate-themes.yml
+  pull_request:
+    paths:
+      - 'themes/**'
+      - .github/workflows/validate-themes.yml
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Validate theme files
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const themesDir = 'themes';
+
+            const requiredFields = [
+              'name',
+              'accent',
+              'accent_dark',
+              'accent_text',
+              'secondary',
+              'subtle_text',
+              'muted_text',
+              'dim_text',
+              'danger',
+              'warning',
+              'tip',
+              'link',
+              'directory',
+              'contrast'
+            ];
+
+            const colorRegex = /^#([0-9A-Fa-f]{6})|^(\d{1,3})$/;
+
+            let errors = [];
+
+            if (!fs.existsSync(themesDir)) {
+              errors.push('Themes directory does not exist');
+            } else {
+              const entries = fs.readdirSync(themesDir);
+              const themeFiles = entries.filter(e => e.endsWith('.json'));
+
+              if (themeFiles.length === 0) {
+                errors.push('No theme files found in themes/');
+              }
+
+              for (const file of themeFiles) {
+                const filePath = path.join(themesDir, file);
+                const raw = fs.readFileSync(filePath, 'utf8');
+                let theme;
+
+                try {
+                  theme = JSON.parse(raw);
+                } catch (e) {
+                  errors.push(`${file}: invalid JSON - ${e.message}`);
+                  continue;
+                }
+
+                for (const field of requiredFields) {
+                  if (!theme[field]) {
+                    errors.push(`${file}: missing required field '${field}'`);
+                  }
+                }
+
+                for (const field of requiredFields) {
+                  if (theme[field] && !colorRegex.test(theme[field])) {
+                    errors.push(`${file}: invalid color value for '${field}'`);
+                  }
+                }
+
+                const slug = path.basename(file, '.json');
+                if (theme.name && slug.toLowerCase() !== theme.name.toLowerCase().replace(/\s+/g, '-')) {
+                  errors.push(`${file}: theme name '${theme.name}' should match slug '${slug}'`);
+                }
+              }
+            }
+
+            if (errors.length > 0) {
+              core.setFailed(errors.join('\n'));
+            }

@@ -1,0 +1,16 @@
+{
+  "name": "Peach",
+  "accent": "#FAB387",
+  "accent_dark": "#E0956E",
+  "accent_text": "#1E1E2E",
+  "secondary": "244",
+  "subtle_text": "245",
+  "muted_text": "247",
+  "dim_text": "250",
+  "danger": "#F38BA8",
+  "warning": "#F9E2AF",
+  "tip": "#F9E2AF",
+  "link": "#89B4FA",
+  "directory": "#FAB387",
+  "contrast": "#1E1E2E"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Lavender",
+  "accent": "#B4A7D6",
+  "accent_dark": "#8E7CC3",
+  "accent_text": "#FFFDF5",
+  "secondary": "244",
+  "subtle_text": "245",
+  "muted_text": "247",
+  "dim_text": "250",
+  "danger": "196",
+  "warning": "208",
+  "tip": "214",
+  "link": "#9BC4FF",
+  "directory": "#B4A7D6",
+  "contrast": "#000000"
+}
