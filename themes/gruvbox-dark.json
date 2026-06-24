@@ -1,0 +1,16 @@
+{
+  "name": "Gruvbox Dark",
+  "accent": "#FABD2F",
+  "accent_dark": "#D79921",
+  "accent_text": "#282828",
+  "secondary": "#504945",
+  "subtle_text": "#665C54",
+  "muted_text": "#928374",
+  "dim_text": "#A89984",
+  "danger": "#FB4934",
+  "warning": "#FE8019",
+  "tip": "#B8BB26",
+  "link": "#83A598",
+  "directory": "#FABD2F",
+  "contrast": "#282828"
+}

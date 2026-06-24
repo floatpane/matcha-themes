@@ -1,0 +1,16 @@
+{
+  "name": "Coffee",
+  "accent": "#A67B5B",
+  "accent_dark": "#8B5E3C",
+  "accent_text": "#FFF8E1",
+  "secondary": "#4E342E",
+  "subtle_text": "#6D4C41",
+  "muted_text": "#A1887F",
+  "dim_text": "#D7CCC8",
+  "danger": "#C62828",
+  "warning": "#EF6C00",
+  "tip": "#F9A825",
+  "link": "#81D4FA",
+  "directory": "#A67B5B",
+  "contrast": "#3E2723"
+}

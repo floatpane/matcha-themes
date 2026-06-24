@@ -1,0 +1,16 @@
+{
+  "name": "Coral",
+  "accent": "#FF7F50",
+  "accent_dark": "#E86A3D",
+  "accent_text": "#FFF8F5",
+  "secondary": "#3D2C24",
+  "subtle_text": "#5D4037",
+  "muted_text": "#A1887F",
+  "dim_text": "#D7CCC8",
+  "danger": "#D32F2F",
+  "warning": "#FFA726",
+  "tip": "#FFCC80",
+  "link": "#4FC3F7",
+  "directory": "#FF7F50",
+  "contrast": "#2D1F1B"
+}

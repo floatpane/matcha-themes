@@ -1,0 +1,16 @@
+{
+  "name": "Mint",
+  "accent": "#34D399",
+  "accent_dark": "#059669",
+  "accent_text": "#064E3B",
+  "secondary": "#065F46",
+  "subtle_text": "#047857",
+  "muted_text": "#6EE7B7",
+  "dim_text": "#D1FAE5",
+  "danger": "#EF4444",
+  "warning": "#F59E0B",
+  "tip": "#FCD34D",
+  "link": "#22D3EE",
+  "directory": "#34D399",
+  "contrast": "#064E3B"
+}

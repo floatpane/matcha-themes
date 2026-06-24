@@ -1,0 +1,16 @@
+{
+  "name": "Vaporwave",
+  "accent": "#FF71CE",
+  "accent_dark": "#D63384",
+  "accent_text": "#1A0B2E",
+  "secondary": "#2D1B4E",
+  "subtle_text": "#4A2B7A",
+  "muted_text": "#01CDFE",
+  "dim_text": "#F0F0F0",
+  "danger": "#FF0055",
+  "warning": "#FFAA00",
+  "tip": "#FFF01F",
+  "link": "#01CDFE",
+  "directory": "#FF71CE",
+  "contrast": "#1A0B2E"
+}

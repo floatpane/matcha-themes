@@ -1,0 +1,16 @@
+{
+  "name": "Monokai",
+  "accent": "#66D9EF",
+  "accent_dark": "#56B6C2",
+  "accent_text": "#272822",
+  "secondary": "#49483E",
+  "subtle_text": "#75715E",
+  "muted_text": "#A59F85",
+  "dim_text": "#F8F8F2",
+  "danger": "#F92672",
+  "warning": "#FD971F",
+  "tip": "#E6DB74",
+  "link": "#A6E22E",
+  "directory": "#66D9EF",
+  "contrast": "#272822"
+}

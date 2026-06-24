@@ -1,0 +1,16 @@
+{
+  "name": "Cyberpunk",
+  "accent": "#FF00FF",
+  "accent_dark": "#C700C7",
+  "accent_text": "#0A0A0A",
+  "secondary": "#1A1A2E",
+  "subtle_text": "#2A2A3E",
+  "muted_text": "#00FFFF",
+  "dim_text": "#E0E0E0",
+  "danger": "#FF0055",
+  "warning": "#FFAA00",
+  "tip": "#FFFF00",
+  "link": "#00FFFF",
+  "directory": "#FF00FF",
+  "contrast": "#0A0A0A"
+}

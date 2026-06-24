@@ -1,0 +1,16 @@
+{
+  "name": "Midnight",
+  "accent": "#6366F1",
+  "accent_dark": "#4338CA",
+  "accent_text": "#F8FAFC",
+  "secondary": "#1E293B",
+  "subtle_text": "#334155",
+  "muted_text": "#64748B",
+  "dim_text": "#94A3B8",
+  "danger": "#EF4444",
+  "warning": "#F59E0B",
+  "tip": "#10B981",
+  "link": "#38BDF8",
+  "directory": "#6366F1",
+  "contrast": "#0F172A"
+}

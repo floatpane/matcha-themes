@@ -1,0 +1,16 @@
+{
+  "name": "Black & White",
+  "accent": "15",
+  "accent_dark": "0",
+  "accent_text": "0",
+  "secondary": "248",
+  "subtle_text": "250",
+  "muted_text": "252",
+  "dim_text": "255",
+  "danger": "0",
+  "warning": "0",
+  "tip": "255",
+  "link": "255",
+  "directory": "255",
+  "contrast": "255"
+}

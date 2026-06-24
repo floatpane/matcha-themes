@@ -1,0 +1,16 @@
+{
+  "name": "Tokyo Night",
+  "accent": "#7AA2F7",
+  "accent_dark": "#565F89",
+  "accent_text": "#1A1B26",
+  "secondary": "#414868",
+  "subtle_text": "#565F89",
+  "muted_text": "#737AA2",
+  "dim_text": "#A9B1D6",
+  "danger": "#F7768E",
+  "warning": "#FF9E64",
+  "tip": "#E0AF68",
+  "link": "#7DCFFF",
+  "directory": "#7AA2F7",
+  "contrast": "#1A1B26"
+}

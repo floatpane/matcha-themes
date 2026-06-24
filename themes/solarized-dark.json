@@ -1,0 +1,16 @@
+{
+  "name": "Solarized Dark",
+  "accent": "#268BD2",
+  "accent_dark": "#1F6FAD",
+  "accent_text": "#FDF6E3",
+  "secondary": "#586E75",
+  "subtle_text": "#657B83",
+  "muted_text": "#93A1A1",
+  "dim_text": "#839496",
+  "danger": "#DC322F",
+  "warning": "#CB4B16",
+  "tip": "#B58900",
+  "link": "#2AA198",
+  "directory": "#268BD2",
+  "contrast": "#002B36"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Dracula",
+  "accent": "#BD93F9",
+  "accent_dark": "#6272A4",
+  "accent_text": "#F8F8F2",
+  "secondary": "#44475A",
+  "subtle_text": "#6272A4",
+  "muted_text": "#8BE9FD",
+  "dim_text": "#BFBFBF",
+  "danger": "#FF5555",
+  "warning": "#FFB86C",
+  "tip": "#F1FA8C",
+  "link": "#8BE9FD",
+  "directory": "#BD93F9",
+  "contrast": "#282A36"
+}

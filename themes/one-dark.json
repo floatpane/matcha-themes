@@ -1,0 +1,16 @@
+{
+  "name": "One Dark",
+  "accent": "#61AFEF",
+  "accent_dark": "#528BCC",
+  "accent_text": "#282C34",
+  "secondary": "#3E4451",
+  "subtle_text": "#5C6370",
+  "muted_text": "#828997",
+  "dim_text": "#ABB2BF",
+  "danger": "#E06C75",
+  "warning": "#D19A66",
+  "tip": "#E5C07B",
+  "link": "#56B6C2",
+  "directory": "#61AFEF",
+  "contrast": "#282C34"
+}

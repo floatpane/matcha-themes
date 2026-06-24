@@ -1,0 +1,16 @@
+{
+  "name": "Nord",
+  "accent": "#88C0D0",
+  "accent_dark": "#5E81AC",
+  "accent_text": "#2E3440",
+  "secondary": "#4C566A",
+  "subtle_text": "#616E88",
+  "muted_text": "#81A1C1",
+  "dim_text": "#D8DEE9",
+  "danger": "#BF616A",
+  "warning": "#D08770",
+  "tip": "#EBCB8B",
+  "link": "#8FBCBB",
+  "directory": "#88C0D0",
+  "contrast": "#2E3440"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Amber",
+  "accent": "#F59E0B",
+  "accent_dark": "#D97706",
+  "accent_text": "#1C1917",
+  "secondary": "#44403C",
+  "subtle_text": "#57534E",
+  "muted_text": "#A8A29E",
+  "dim_text": "#D6D3D1",
+  "danger": "#DC2626",
+  "warning": "#EA580C",
+  "tip": "#65A30D",
+  "link": "#0EA5E9",
+  "directory": "#F59E0B",
+  "contrast": "#1C1917"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Sunset",
+  "accent": "#FF6B6B",
+  "accent_dark": "#EE5253",
+  "accent_text": "#2C2C54",
+  "secondary": "#40407A",
+  "subtle_text": "#474787",
+  "muted_text": "#706FD3",
+  "dim_text": "#D1CCC0",
+  "danger": "#FF9F43",
+  "warning": "#FECA57",
+  "tip": "#48DBFB",
+  "link": "#1DD1A1",
+  "directory": "#FF6B6B",
+  "contrast": "#2C2C54"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Berry",
+  "accent": "#D946EF",
+  "accent_dark": "#A21CAF",
+  "accent_text": "#FAF5FF",
+  "secondary": "#581C87",
+  "subtle_text": "#7E22CE",
+  "muted_text": "#C084FC",
+  "dim_text": "#E9D5FF",
+  "danger": "#FB7185",
+  "warning": "#FDBA74",
+  "tip": "#FDE047",
+  "link": "#22D3EE",
+  "directory": "#D946EF",
+  "contrast": "#3B0764"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Forest",
+  "accent": "#228B22",
+  "accent_dark": "#196619",
+  "accent_text": "#F3F7F0",
+  "secondary": "#2F4F4F",
+  "subtle_text": "#556B2F",
+  "muted_text": "#6B8E23",
+  "dim_text": "#A2B5A2",
+  "danger": "#B22222",
+  "warning": "#DAA520",
+  "tip": "#9ACD32",
+  "link": "#66CDAA",
+  "directory": "#228B22",
+  "contrast": "#1A2E1A"
+}

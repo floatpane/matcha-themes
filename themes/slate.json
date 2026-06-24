@@ -1,0 +1,16 @@
+{
+  "name": "Slate",
+  "accent": "#94A3B8",
+  "accent_dark": "#64748B",
+  "accent_text": "#F8FAFC",
+  "secondary": "#334155",
+  "subtle_text": "#475569",
+  "muted_text": "#94A3B8",
+  "dim_text": "#CBD5E1",
+  "danger": "#F87171",
+  "warning": "#FBBF24",
+  "tip": "#34D399",
+  "link": "#60A5FA",
+  "directory": "#94A3B8",
+  "contrast": "#0F172A"
+}
