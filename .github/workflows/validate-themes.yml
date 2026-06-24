@@ -75,13 +75,14 @@ jobs:
                 }
 
                 for (const field of requiredFields) {
-                  if (theme[field] && !colorRegex.test(theme[field])) {
+                  if (field !== 'name' && theme[field] && !colorRegex.test(theme[field])) {
                     errors.push(`${file}: invalid color value for '${field}'`);
                   }
                 }
 
                 const slug = path.basename(file, '.json');
-                if (theme.name && slug.toLowerCase() !== theme.name.toLowerCase().replace(/\s+/g, '-')) {
+                const expectedName = theme.name ? theme.name.toLowerCase().replace(/&/g, 'and').replace(/\s+/g, '-') : '';
+                if (theme.name && slug.toLowerCase() !== expectedName) {
                   errors.push(`${file}: theme name '${theme.name}' should match slug '${slug}'`);
                 }
               }
